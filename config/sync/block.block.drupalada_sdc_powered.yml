@@ -1,0 +1,22 @@
+uuid: c8ca7d19-b7b4-4e73-ae54-0cb786fdf987
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalada_sdc
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: drupalada_sdc_powered
+theme: drupalada_sdc
+region: footer_bottom
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

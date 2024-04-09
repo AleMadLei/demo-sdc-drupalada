@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Mis SDCs module.
+ */
+
+function mis_sdcs_2_preprocess_node__article__teaser(array &$variables) {
+  $variables['content']['tarjeta_2'] = [
+    '#type' => 'component',
+    '#component' => 'mis_sdcs_2:tarjeta_2',
+    '#props' => [
+      'titulo' => t('Yo soy el componente desde código'),
+      'contenido' => 'Yo soy el contenido desde código',
+    ],
+  ];
+}

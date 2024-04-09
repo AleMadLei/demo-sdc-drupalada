@@ -1,0 +1,7 @@
+name: 'Mis SDCs 2'
+type: module
+description: 'Modulo con components 2'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:sdc

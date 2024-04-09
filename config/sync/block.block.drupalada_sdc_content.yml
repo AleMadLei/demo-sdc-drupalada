@@ -1,0 +1,22 @@
+uuid: 5e2f611b-815a-4418-ad95-da77fbf10752
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalada_sdc
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: drupalada_sdc_content
+theme: drupalada_sdc
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

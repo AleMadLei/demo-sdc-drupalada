@@ -1,0 +1,11 @@
+.tarjeta {
+  background: red;
+  border: blue 1px solid;
+  padding: 2rem;
+  font-style: italic;
+}
+
+.tarjeta__titulo {
+  font-weight: 2.5rem;
+  margin: 0 0 1rem;
+}

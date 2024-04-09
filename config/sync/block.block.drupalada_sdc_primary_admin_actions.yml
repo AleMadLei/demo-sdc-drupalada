@@ -1,0 +1,20 @@
+uuid: 6d8657b3-3b6c-4c80-8ff9-e15ab7bd5256
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupalada_sdc
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: drupalada_sdc_primary_admin_actions
+theme: drupalada_sdc
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

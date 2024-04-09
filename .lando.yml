@@ -1,0 +1,11 @@
+name: demo-sdc-drupaladas
+recipe: drupal10
+config:
+  webroot: web
+  php: '8.2'
+
+services:
+  appserver:
+    overrides:
+      environment:
+        DRUSH_OPTIONS_URI: 'https://demo-sdc-drupaladas.lndo.site'

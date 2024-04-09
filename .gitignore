@@ -1,62 +1,41 @@
-# gitignore template for Drupal 8 projects
-#
-# earlier versions of Drupal are tracked in `community/PHP/`
-#
-# follows official upstream conventions:
-# https://www.drupal.org/docs/develop/using-composer
+# Ignore IDE settings.
+/.idea
 
-# Ignore configuration files that may contain sensitive information
-/web/sites/*/*settings*.php
-/web/sites/*/*services*.yml
+# Ignore dependencies
+/vendor
 
-# Ignore paths that may contain user-generated content
-/web/sites/*/files
-/web/sites/*/public
-/web/sites/*/private
-/web/sites/*/files-public
-/web/sites/*/files-private
+# Drupal README files.
+/web/*/README.txt
 
-# Ignore paths that may contain temporary files
-/web/sites/*/translations
-/web/sites/*/tmp
-/web/sites/*/cache
-
-# Ignore drupal core (if not versioning drupal sources)
-/web/vendor
-/web/core
-/web/modules/README.txt
-/web/profiles/README.txt
-/web/sites/development.services.yml
-/web/sites/example.settings.local.php
-/web/sites/example.sites.php
-/web/sites/README.txt
-/web/themes/README.txt
+# Drupal scaffold files.
 /web/.csslintrc
-/web/.editorconfig
+/web/.eslintignore
+/web/.csslintrc
 /web/.eslintignore
 /web/.eslintrc.json
-/web/.gitattributes
-/web/.htaccess
 /web/.ht.router.php
+/web/.htaccess
+/web/INSTALL.txt
+/web/README.md
 /web/autoload.php
-/web/composer.json
-/web/composer.lock
+/web/core/
 /web/example.gitignore
 /web/index.php
-/web/INSTALL.txt
-/web/LICENSE.txt
-/web/README.txt
+/web/modules/contrib
+/web/modules/themes
+/web/profiles/
 /web/robots.txt
+/web/themes/contrib
 /web/update.php
 /web/web.config
 
-# Ignore vendor dependencies and scripts
-/vendor
-/composer.phar
-/composer
-/robo.phar
-/robo
-/drush.phar
-/drush
-/drupal.phar
-/drupal
+# Settings files.
+/web/sites/default/settings.*.php
+
+# Default settings and config files.
+/web/sites/default/default**
+/web/sites/example*
+/web/sites/development.*
+
+# Files folders
+/web/sites/*/files

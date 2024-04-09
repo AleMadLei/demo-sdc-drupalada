@@ -1,0 +1,22 @@
+uuid: a298d872-2d1a-45e6-9275-f4b9ffca91d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - drupalada_sdc
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: drupalada_sdc_help
+theme: drupalada_sdc
+region: content_above
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
