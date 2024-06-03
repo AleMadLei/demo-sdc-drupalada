@@ -82,8 +82,13 @@
   {% set without_component_2 = content|without('tarjeta_2') %}
   {{ title_prefix }}
   {{ title_suffix }}
+  {% include 'drupalada_sdc:tarjeta' with {
+    titulo: content.title,
+    contenido: without_component_2,
+  } %}
+
   {% include 'mis_sdcs:tarjeta' with {
-    titulo: label,
+    titulo: 'Titulo 2',
     contenido: without_component_2,
   } %}
 

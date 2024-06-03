@@ -5,6 +5,7 @@ description: Una tarjeta a presentar información
 libraryOverrides:
   dependencies:
     - core/once
+group: 'Content'
 props:
   type: object
   properties:
@@ -19,5 +20,5 @@ props:
 
 slots:
   media:
-    titulo: Media
+    title: Media
     description: El elemento multimedia

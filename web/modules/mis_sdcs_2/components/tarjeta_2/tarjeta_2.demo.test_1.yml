@@ -1,0 +1,5 @@
+name: Demo tarjeta 2
+description: This shows a tarjeta 2
+properties:
+  titulo: Este es el titulo
+  contenido: Este es el contenido
